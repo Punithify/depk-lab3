@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture The Flag"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFF"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainact"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+    android:layout_marginBottom="16dp"/>
+    <!-- Description TextView -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Participants must attempt to find text strings, called flags, which are secretly hidden in purposefully-vulnerable programs or websites."
+        android:textColor="#FFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
